@@ -8,7 +8,7 @@ coverage/
 
 # production
 build/
-user-server/public/
+server/public/
 
 # misc
 .DS_Store
