@@ -1,0 +1,1 @@
+export const isFunc = mayBeFunction => typeof mayBeFunction === 'function'

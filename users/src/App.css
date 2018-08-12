@@ -1,0 +1,9 @@
+.app {
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.app-header {
+	min-height: 4rem;
+}
