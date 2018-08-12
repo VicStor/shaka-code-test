@@ -1,8 +1,10 @@
 #!/bin/bash
 
-cd ./users
+cd ./client
+npm install
 npm run build
 cd ..
-cp -r ./users/build ./user-server/public
-cd ./user-server
+cp -r ./client/build ./server/public
+cd ./server
+npm install
 node server.js
